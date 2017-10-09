@@ -6,7 +6,7 @@
     <persistence-unit name="spring-jpa-pu"
                       transaction-type="RESOURCE_LOCAL">
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/liblary" />
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/jpa_2" />
             <property name="javax.persistence.jdbc.user" value="gutek" />
             <property name="javax.persistence.jdbc.password" value="daniel" />
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
